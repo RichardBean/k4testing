@@ -62,18 +62,15 @@ five (char *t)
   return x;
  }
 
- int
+int
 main (int argc, char **argv) 
 {
-  int row;
-  long i;
-  int pstat2, pstat3, pstat4, pcount = 0;
-  long co = 1e9;		// one billion served!
+  long i, pstat2, pcount = 0, co = 1e9;
   char k4[] =
     "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR";
   char k4_perm[98];
   struct timeval time;
-   gettimeofday (&time, NULL);
+  gettimeofday (&time, NULL);
   srand48 ((time.tv_sec * 1000) + (time.tv_usec / 1000));
   strcpy (k4_perm, k4);
 

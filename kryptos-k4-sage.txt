@@ -1,0 +1,37 @@
+R.<pE,pA,pS,pT,pN,pO,pR,pH,pB,pL,pI,pC,pK,pF,pV,pQ,pP,pG,pY,pM,pZ,k21,k22,k23,k24,k25,k26,k27,k28,k29,k30,k31,k32,k33,k63,k64,k65,k66,k67,k68,k69,k70,k71,k72,k73> = PolynomialRing(ZZ)
+
+gens = [pE + k21 - pF,pA + k22 - pL,pS + k23 - pR,pT + k24 - pV,pN + k25 - pQ,pO + k26 - pQ,pR + k27 - pP,pT + k28 - pR,pH + k29 - pN,pE +k30 - pG,pA + k31 - pK,pS + k32 - pS,pT + k33 - pS,pB + k63 - pN,pE + k64 - pY,pR + k65 - pP,pL + k66 - pV,pI + k67 - pT,pN + k68 - pT,pC+k69 - pM,pL + k70 - pZ,pO + k71 - pF,pC + k72 - pP,pK + k73 - pK]
+J=R.ideal(gens)
+#J.elimination_ideal([pE,pA,pS,pT,pN,pO,pR,pH,pB,pL,pI,pC,pK,pF,pL,pR,pV,pQ,pP,pG,pK,pS,pN,pY,pT,pM,pZ])
+
+J.groebner_basis().ideal()
+
+all these == 0
+
+if non_zero + x == 0 then x != zero
+
+pE - pZ + k21 + k24 - k25 + k26 - k66 + k68 + k70 - k71
+pA - pZ + k22 + k70
+pS - pZ + k24 - k33 - k66 + k70
+pT - pZ + k24 - k66 + k70
+pN - pZ + k24 - k66 + k68 + k70
+pO - pZ + k24 - k25 + k26 - k66 + k68 + k70
+pR - pZ + k24 - k28 - k66 + k70
+pH - pZ + k24 + k29 - k66 + k68 + k70
+pB - pZ + k24 + k63 - k66 + k68 + k70
+pL - pZ + k70 ---> plain L maps to Z, so k70 != 0
+pI - pZ + k24 - k66 + k67 + k70
+pC - pZ + k24 - k28 - k65 - k66 + k70 + k72
+pK - pZ + k22 - k31 + k70
+pF - pZ + k24 - k25 + k26 - k66 + k68 + k70 - k71
+pV - pZ - k66 + k70 --> plain L maps to V, so k66 != 0
+pQ - pZ + k24 - k25 - k66 + k68 + k70
+pP - pZ + k24 - k28 - k65 - k66 + k70
+pG - pZ + k21 + k24 - k25 + k26 - k30 - k66 + k68 + k70 - k71
+pY - pZ + k21 + k24 - k25 + k26 - k64 - k66 + k68 + k70 - k71
+pM - pZ + k24 - k28 - k65 - k66 - k69 + k70 + k72
+
+k23 - k28 + k33
+k27 - k65
+k32
+k73

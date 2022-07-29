@@ -10,6 +10,8 @@ Presentation file (Amsterdam 2022) at http://elvumgar.fea.st.user.fm/presentatio
 Related videos at 
 
 https://vimeo.com/342900905 (UQ Lecture)
+
 https://vimeo.com/461631245 (Cryptodiagnosis)
+
 https://vimeo.com/623038634 (Gromark)
 

@@ -16,17 +16,15 @@ Writing about cipher type diagnosis, he describes the search for “something fu
 
 ## Simulation code in this repository
 
-This repository contains code used in the "Histocrypt 2021" paper "Cryptodiagnosis of Kryptos K4".
+This repository contains code used in the ["Histocrypt 2021" paper "Cryptodiagnosis of Kryptos K4"](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153).
 
 The idea is to measure how unusual some observed phenomena of K4 are by seeing how often the phenomena occur in random permutations of K4.
 
 If you are familiar with C, you can modify the code slightly to investigate whether any phenomena you observe might be in the realm of ["Surely, this cannot be a coincidence!"](http://answers.codebook.org/node29.html).
 
-## The paper and presentation file, and related videos
+## The presentation file, and related videos
 
-[Published paper](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153)
-
-[Presentation file (Amsterdam 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)
+[Presentation file (HistoCrypt Amsterdam, June 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)
 
 I have made some videos about this subject so far ...
 

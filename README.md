@@ -1,4 +1,4 @@
-# Kryptos K4 testing by Monte Carlo sampling.
+# Kryptos K4 testing by Monte Carlo sampling
 
 ## Callimahos and Lewis
 

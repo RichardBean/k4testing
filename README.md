@@ -20,7 +20,7 @@ This repository contains code used in the ["Histocrypt 2021" paper "Cryptodiagno
 
 The idea is to measure how unusual some observed phenomena of K4 are by seeing how often the phenomena occur in random permutations of K4.
 
-If you are familiar with C, you can modify the code slightly to investigate whether any phenomena you observe might be in the realm of ["Surely, this cannot be a coincidence!"](http://answers.codebook.org/node29.html).
+If you are familiar with C, you can modify the code slightly to investigate whether any phenomena you observe might be in the realm of ["Surely, this cannot be a coincidence!"]([http://answers.codebook.org/node29.html](http://codebook.org/codebook_solution.pdf).
 
 ## The presentation file, and related videos
 

@@ -2,7 +2,7 @@
 
 ## Callimahos and Lewis
 
-Callimahos ("Military Cryptanlytics Part III", 1977) and Lewis ("Solving Cipher Problems", 1992) describe the process of diagnosis of an unknown cipher type.
+Callimahos (["Military Cryptanlytics Part III", 1977](https://www.governmentattic.org/41docs/NSAmilitaryCryptalyticsPt3_1977.pdf)) and Lewis (["Solving Cipher Problems", 1992)](https://archive.org/details/solving-cipher-problems.-frank-l-lewis.-c-58_202203) describe the process of diagnosis of an unknown cipher type.
 
 Callimahos, in a chapter entitled “Principles of Cryptodiagnosis”, sets out a process of hypothesis formulation and hypothesis testing.
 
@@ -20,17 +20,17 @@ This repository contains code used in the "Histocrypt 2021" paper "Cryptodiagnos
 
 The idea is to measure how unusual some observed phenomena of K4 are by seeing how often the phenomena occur in random permutations of K4.
 
+If you are familiar with C, you can modify the code slightly to investigate whether any phenomena you observe might be in the realm of ["Surely, this cannot be a coincidence!"](http://answers.codebook.org/node29.html).
+
 ## The paper and presentation file, and related videos
 
-Published paper at https://ecp.ep.liu.se/index.php/histocrypt/article/view/153
+[Published paper](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153)
 
-Presentation file (Amsterdam 2022) at http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf
+[Presentation file (Amsterdam 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)
 
-Related videos at 
+I have made some videos about this subject so far ...
 
-https://vimeo.com/342900905 (UQ Lecture)
-
-https://vimeo.com/461631245 (Cryptodiagnosis)
-
-https://vimeo.com/623038634 (Gromark)
+[UQ Lecture, April 2019](https://vimeo.com/342900905)
+[Cryptodiagnosis, September 2020](https://vimeo.com/461631245)
+[Gromark, October 2021](https://vimeo.com/623038634)
 

@@ -24,7 +24,7 @@ If you are familiar with C, you can modify the code slightly to investigate whet
 
 One of the possible explanations for the observed phenomena is the use of the ["Gromark" cipher](https://www.cryptogram.org/downloads/aca.info/ciphers/Gromark.pdf). 
 
-The program "gt.c" provides code to find all possible Gromark primers of base 10, length 5 which could produce the known plaintext "EASTNORTHEAST" and "BERLINCLOCK" at the given positions in the plaintext, with any plain or cipher alphabet. The standard ACA "Gromark" cipher limits the plain alphabet to be the "standard" A-Z alphabet. 
+The program "gt.c" provides code to find all possible Gromark primers of base 10, length 5 which could produce the known plaintext "EASTNORTHEAST" and "BERLINCLOCK" at the given positions in the plaintext, with some plain and cipher alphabet. The standard ACA "Gromark" cipher limits the plain alphabet to be the "standard" A-Z alphabet. 
 
 You can execute it e.g. with "./gt 10 5" and it displays 39 possibilities, one per line: the primer, the number of different digits in the expansion, and the expanded primer (i.e. key).
 

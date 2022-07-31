@@ -1,16 +1,16 @@
 # Kryptos K4 testing by Monte Carlo sampling
 
-## Callimahos and Lewis
+## Callimahos and Lewis on cryptanalytic diagnosis
 
-Callimahos (["Military Cryptanlytics Part III", 1977](https://www.governmentattic.org/41docs/NSAmilitaryCryptalyticsPt3_1977.pdf)) and Lewis (["Solving Cipher Problems", 1992](https://archive.org/details/solving-cipher-problems.-frank-l-lewis.-c-58_202203)) describe the process of diagnosis of an unknown cipher type.
+_Callimahos_ (["Military Cryptanlytics Part III", 1977](https://www.governmentattic.org/41docs/NSAmilitaryCryptalyticsPt3_1977.pdf)) and _Lewis_ (["Solving Cipher Problems", 1992](https://archive.org/details/solving-cipher-problems.-frank-l-lewis.-c-58_202203)) describe the process of diagnosis of an unknown cipher type.
 
-Callimahos, in a chapter entitled “Principles of Cryptodiagnosis”, sets out a process of hypothesis formulation and hypothesis testing.
+_Callimahos_, in a chapter entitled “Principles of Cryptodiagnosis”, sets out a process of hypothesis formulation and hypothesis testing.
 
 This involves arrangement and rearrangement of the data to disclose nonrandom characteristics, followed by recognition and explanation of these characteristics.
 
 The chapter headers are: manipulating the data, recognizing the phenomena, and interpreting the phenomena. 
 
-Lewis states that the task of an analyst is finding, measuring, explaining, and exploiting a phenomenon (or phenomena). 
+_Lewis_ states that the task of an analyst is finding, measuring, explaining, and exploiting a phenomenon (or phenomena). 
 
 Writing about cipher type diagnosis, he describes the search for “something funny” or “finding the phenomena”.
 

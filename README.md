@@ -28,6 +28,8 @@ The program "gt.c" provides code to find all possible Gromark primers of base 10
 
 You can execute it e.g. with "./gt 10 5" and it displays 39 possibilities, one per line: the primer, the number of different digits in the expansion, and the expanded primer (i.e. key).
 
+"grom-ic-list" performs index of coincidence calculations for a given ciphertext as described in Blackman's 1989 paper ["The Gromark Cipher, and some relatives"](https://doi.org/10.1080/0161-118991863961).
+
 ## Presentation file, and related videos
 
 [Presentation file (HistoCrypt Amsterdam, June 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)

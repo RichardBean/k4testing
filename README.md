@@ -26,9 +26,11 @@ If you are familiar with C, you can modify the code slightly to investigate whet
 
 [Presentation file (HistoCrypt Amsterdam, June 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)
 
-I have made some videos about this subject so far ...
+I have made three videos about this subject from 2019-2021.
 
 [UQ Lecture, April 2019](https://vimeo.com/342900905)
+
 [Cryptodiagnosis, September 2020](https://vimeo.com/461631245)
+
 [Gromark, October 2021](https://vimeo.com/623038634)
 

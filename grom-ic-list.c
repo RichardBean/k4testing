@@ -27,7 +27,6 @@ int		ic         (char *s)
 	return to * 100000 / l / (l - 1);
 }
 
-
 int
 main(int argc, char **argv)
 {

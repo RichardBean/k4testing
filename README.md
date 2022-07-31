@@ -22,6 +22,8 @@ The idea is to measure how unusual some observed phenomena of K4 are by seeing h
 
 If you are familiar with C, you can modify the code slightly to investigate whether any phenomena you observe might be in the realm of ["Surely, this cannot be a coincidence!"](http://codebook.org/codebook_solution.pdf).
 
+One of the possible explanations for the observed phenomena is the use of the ["Gromark" cipher](https://www.cryptogram.org/downloads/aca.info/ciphers/Gromark.pdf). The program "gt.c" provides code to find all possible Gromark primers of base 10, length 5 which could produce the known plaintext "EASTNORTHEAST" and "BERLINCLOCK" at the given positions in the plaintext, with any plain or cipher alphabet. The standard ACA "Gromark" cipher limits the plain alphabet to be the "standard" A-Z alphabet.
+
 ## The presentation file, and related videos
 
 [Presentation file (HistoCrypt Amsterdam, June 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)

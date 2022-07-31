@@ -1,6 +1,6 @@
 // for given keys and ciphertexts, print out the index of coincidence with the output
 
-// see https:doi.org/10.1080/0161-118991863961
+// see https://doi.org/10.1080/0161-118991863961
 // Deane R. Blackman, "The Gromark Cipher, and some relatives" (CRUX in ACA)
 // Cryptologia Volume 13, 1989 - Issue 3, pp273 - 282
 

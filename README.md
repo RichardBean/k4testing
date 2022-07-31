@@ -34,6 +34,8 @@ You can execute it e.g. with "./gt 10 5" and it displays 39 possibilities, one p
 
 [Presentation file (HistoCrypt Amsterdam, June 2022)](http://elvumgar.fea.st.user.fm/presentations/2022-06-21%20cryptodiagnosis_of_k4.pdf)
 
+I wrote about the Callimahos book and the cryptodiagnosis chapter at [The Conversation in 2021](https://theconversation.com/declassified-cold-war-code-breaking-manual-has-lessons-for-solving-impossible-puzzles-161595).
+
 I have made three videos about this subject from 2019-2021.
 
 [UQ Lecture, April 2019](https://vimeo.com/342900905)

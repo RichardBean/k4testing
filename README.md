@@ -16,7 +16,7 @@ Writing about cipher type diagnosis, he describes the search for “something fu
 
 ## Simulation code in this repository
 
-This repository contains code used in the ["Histocrypt 2021" paper "Cryptodiagnosis of Kryptos K4"](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153).
+This repository contains code used in my ["Histocrypt 2021" paper "Cryptodiagnosis of Kryptos K4"](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153).
 
 The idea is to measure how unusual some observed phenomena of K4 are by seeing how often the phenomena occur in random permutations of K4.
 

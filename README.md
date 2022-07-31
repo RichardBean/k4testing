@@ -2,7 +2,7 @@
 
 ## Callimahos and Lewis
 
-Callimahos (["Military Cryptanlytics Part III", 1977](https://www.governmentattic.org/41docs/NSAmilitaryCryptalyticsPt3_1977.pdf) and Lewis (["Solving Cipher Problems", 1992)](https://archive.org/details/solving-cipher-problems.-frank-l-lewis.-c-58_202203) describe the process of diagnosis of an unknown cipher type.
+Callimahos (["Military Cryptanlytics Part III", 1977](https://www.governmentattic.org/41docs/NSAmilitaryCryptalyticsPt3_1977.pdf)) and Lewis (["Solving Cipher Problems", 1992)](https://archive.org/details/solving-cipher-problems.-frank-l-lewis.-c-58_202203)) describe the process of diagnosis of an unknown cipher type.
 
 Callimahos, in a chapter entitled “Principles of Cryptodiagnosis”, sets out a process of hypothesis formulation and hypothesis testing.
 

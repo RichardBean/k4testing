@@ -1,10 +1,8 @@
-// Gromark Key Checking for Kryptos K4 -- given a base, a primer length, and following the Lagged Fibonacci Generation key method
-// of adding the first two key digits together to get the next key digit, which primers can give us EASTNORTHEAST ... BERLINCLOCK
-// in the plaintext? e.g. base 8, primer length 4 -- 4 keys; base 10, primer length 5 -- 39 keys
-
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100
+
+int mod(a,b) { return ((260 + a) % 26 == (260+b) % 26); }
 
 int
 main(int argc, char **argv)
@@ -71,22 +69,34 @@ main(int argc, char **argv)
 				//if (primer[25] - primer[26] == primer[68] - primer[71]) continue;
 				//if (primer[25] == primer[26]) continue; 
 
-				if (primer[26] - primer[71] == primer[30] - primer[21]) continue;
-				if (primer[67] - primer[68] == primer[26] - primer[25]) continue;
-				if (primer[21] - primer[64] == primer[71] - primer[26]) continue;
-				if (primer[26] - primer[71] == primer[25] - primer[21]) continue;
-				if (primer[25] - primer[68] == primer[26] - primer[67]) continue; 
-				if (primer[33] - primer[32] - primer[28] + primer[23] ) continue; 
-				if (primer[25] - primer[26] - primer[68] + primer[71] == 0) continue;
-				if (primer[24]- primer[28]- primer[66] + primer[70] == 0) continue;
-				if (primer[24]- primer[33]- primer[66] + primer[70]==0) continue;
-				if (primer[23]- primer[28]- primer[32] + primer[33]!=0) continue; // very effective!
-				if (primer[24] - primer[66] - primer[28] + primer[23] == 0) continue;
+				if (mod(primer[26] - primer[71] , primer[30] - primer[21])) continue;
+				if (mod(primer[67] - primer[68] , primer[26] - primer[25])) continue;
+				if (mod(primer[21] - primer[64] , primer[71] - primer[26])) continue;
+				if (mod(primer[26] - primer[71] , primer[25] - primer[21])) continue;
+				if (mod(primer[25] - primer[68] , primer[26] - primer[67])) continue; 
+				if (mod(primer[25] - primer[26] - primer[68] + primer[71] , 0)) continue;
+				if (mod(primer[24]- primer[28]- primer[66] + primer[70] , 0)) continue;
+				if (mod(primer[24]- primer[33]- primer[66] + primer[70],0)) continue;
+				if (mod(primer[24] - primer[66] - primer[28] + primer[23] , 0)) continue;
 
-				if (primer[21]- primer[25]+ primer[26] - primer[30] + primer[68] - primer[71]==0) continue;
-				if (primer[25]- primer[68]- primer[26] + primer[67] + primer[71] - primer[21]==0) continue; // 36076
-				if (primer[21]- primer[25]+ primer[26] - primer[64] + primer[68] - primer[71]==0) continue;
-				if (primer[68] - primer[64] == primer[71] - primer[26] + primer[25] - primer[21]) continue;
+				if (mod(primer[21]- primer[25]+ primer[26] - primer[30] + primer[68] - primer[71],0)) continue;
+				if (mod(primer[25]- primer[68]- primer[26] + primer[67] + primer[71] - primer[21],0)) continue; // 36076
+				if (mod(primer[21]- primer[25]+ primer[26] - primer[64] + primer[68] - primer[71],0)) continue;
+				if (mod(primer[68] - primer[64] , primer[71] - primer[26] + primer[25] - primer[21])) continue;
+
+				if (primer[21] == primer[64]) continue;
+                                if (primer[30] == primer[64]) continue;
+                                if (primer[22] == primer[31]) continue;
+                                if (primer[69] == primer[72]) continue;
+                                if (primer[66] == primer[70]) continue;
+
+                                if (mod(primer[21] - primer[64] , primer[71] - primer[26])) continue;
+                                if (mod(primer[24]- primer[28]- primer[66] + primer[70] , 0)) continue;
+                                if (mod(primer[24]- primer[33]- primer[66] + primer[70],0)) continue;
+                                if (mod(primer[21]- primer[25]+ primer[26] - primer[64] + primer[68] - primer[71],0)) continue;
+
+                                if (!mod(primer[33] - primer[32] - primer[28] + primer[23],0)) continue;
+                                if (primer[27] != primer[65]) continue;
 				{
 					int n = 0, d[26];
 					for (i = 0; i < 26; i++)

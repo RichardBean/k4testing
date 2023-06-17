@@ -1,11 +1,12 @@
-// K4 - perform four tests
+// K4 - perform five tests
   
 // 1. Hannon -- width 21 -- how many bigrams are there in vertical pairs?
 // 2. Materna -- for KRYPTOS letters in plaintext, what is the average of minor differences of corresponding plaintext letters?
 // 3. Bean 1 -- for each repeated plaintext letter in A, C, E, L, N, O, R, T, S what is the average of the minor differences between the corresponding plaintext letters?
 // 4. Bean 2 -- for each repeated plaintext letter in A, C, E, L, N, O, R, T, S how many of the minor differences between the corresponding plaintext letters are less than 5?
+// 5. Double-letter -- how many permutations have at least as many double-letter bigrams as K4 ciphertext?
 //
-// 1 in 6750, 1 in 5520, 1 in 240, 1 in 310
+// 1 in 6750, 1 in 5520, 1 in 240, 1 in 310, 1 in 7
   
 #include <stdio.h>
 #include <stdlib.h>
@@ -114,6 +115,22 @@ count21 (char *s)
 }
 
  int
+double_letter_bigrams (char *s)
+{
+  int double_letter_bigram_count = 0;
+  int i;
+  const int len = (int) strlen (s);
+  for (i = 0; i < (len-1); i++)
+  {
+    if (s[i] == s[i+1])
+    {
+      double_letter_bigram_count++;
+    }
+  }
+  return double_letter_bigram_count;
+}
+
+ int
 main (int argc, char **argv) 
 {
   long i, pstat2, pcount = 0, co = 1e7;
@@ -161,6 +178,17 @@ main (int argc, char **argv)
 	pcount++;
     }
   printf ("bean2 %ld\n", co/pcount);
+
+  pstat2 = double_letter_bigrams (k4);
+  pcount = 0;
+  for (i = 0; i < co; i++)
+    {
+      shuffle (k4_perm,97,1);
+      if (double_letter_bigrams(k4_perm) >= pstat2)
+	pcount++;
+    }
+  printf ("double-letter %ld\n", co/pcount);
+
    return 0;
 }
 
